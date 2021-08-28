@@ -6,15 +6,15 @@
 r = range(5)
 print(list(r))
 
-r = range(0,10,2)
+r = range(0, 10, 2)
 print(list(r))
 
-r = range(10,0,-1)
+r = range(10, 0, -1)
 
 print(list(r))
 
 # range可以搭配for循环语句实现指定次数的循环
 for i in range(7):
-    print(i,end='\t')
+    print(i, end='\t')
 else:
     print("循环结束")
