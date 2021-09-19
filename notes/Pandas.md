@@ -49,3 +49,20 @@ https://pypi.tuna.tsinghua.edu.cn/simple
 
 [Pycharm 有些库（函数）没有代码提示，没有智能提示，仅仅为自己查找方便使用 - 程序员大本营 (pianshen.com)](https://www.pianshen.com/article/2583965952/)
 
+## PyCharm绘图解决方法
+
+```python
+import pandas as pd
+# 引入绘图工具
+import matplotlib.pyplot as plt
+from pandas import DataFrame
+
+df = pd.read_excel("../../resources/Pandas/team.xlsx")  # type: DataFrame
+
+df['Q1'].plot()  # Q1成绩的折线分布
+# 展示画布
+plt.show()
+```
+
+## Pandas数据结构
+
